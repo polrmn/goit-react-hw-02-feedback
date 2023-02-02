@@ -14,7 +14,7 @@ const Statistics = ({
             <ListItem sx={{justifyContent: 'center'}}>Neutral: {neutral}</ListItem>
             <ListItem sx={{justifyContent: 'center'}}>Bad: {bad}</ListItem>
             <ListItem sx={{justifyContent: 'center'}}>Total: {total}</ListItem>
-            <ListItem sx={{justifyContent: 'center'}}>Positive feedback: {positivePercentage}</ListItem>
+            <ListItem sx={{justifyContent: 'center'}}>Positive feedback: {positivePercentage}%</ListItem>
         </List>
     )
 }

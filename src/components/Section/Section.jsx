@@ -4,7 +4,7 @@ import  Typography  from "@mui/material/Typography"
 const Section = ({ title, children }) => {
     return (
         <section>
-            <Typography variant="h1" sx={{textAlign: 'center', fontSize: 64, mb: 2}}>{title}</Typography>
+            <Typography variant="h1" sx={{textAlign: 'center', fontSize: 64, m: 2}}>{title}</Typography>
             {children}
         </section>
     )
