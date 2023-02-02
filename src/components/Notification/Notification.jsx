@@ -1,8 +1,14 @@
+import PropTypes from 'prop-types';
+import  Typography  from "@mui/material/Typography"
 
-const Notification = ({message}) => {
+const Notification = ({ message }) => {
     return (
-        <h2>{message}</h2>
+        <Typography variant="h3" sx={{textAlign: 'center'}}>{message}</Typography>
     )
+}
+
+Notification.propTypes = {
+    message: PropTypes.string.isRequired,
 }
 
 export default Notification
